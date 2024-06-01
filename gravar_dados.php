@@ -6,7 +6,7 @@
     $tel=$_POST['txtTel'];
 
     //estrutura do SQL
-    $sql="INSERT INTO clientes ( nome, cpf_cnpj, email, telefone) values ('$nome', '$cpf', '$email', '$tel')";
+    $sql="INSERT INTO clientes (nome, cpf_cnpj, email, telefone) values ('$nome', '$cpf', '$email', '$tel')";
 
     if ($conn->query($sql) === TRUE) {
         echo "Cliente gravado com sucesso";

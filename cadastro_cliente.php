@@ -17,7 +17,7 @@
             <h1>Dados do Cliente</h1>
         </div>
         <div id="campos">
-            <form method="post" action="gravardados.php">
+            <form method="post" action="gravar_dados.php">
                 <table style="border:'0';">
                 <tr>
                     <td>Nome</td>
